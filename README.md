@@ -1,7 +1,15 @@
-# project-powershooter
+# PowerShooter
 
 ## ゲーム画面
 ![結果画像1](powershooter.png)
+
+## コントローラー
+![結果画像1](Controller_1.png)
+
+![結果画像1](Controller_2.png)
+
+## プレイ動画
+- タイトル：PowerShooter
 
 # ゲーム概要
 - タイトル：PowerShooter
