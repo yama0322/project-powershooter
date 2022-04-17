@@ -4,12 +4,12 @@
 ![結果画像1](images/powershooter.png)
 
 ## コントローラー
-![結果画像1](Controller_1.jpg)
+![結果画像1](images/Controller_1.jpg)
 
-![結果画像1](Controller_2.jpg)
+![結果画像1](images/Controller_2.jpg)
 
 ## プレイ動画
-- ファイル内にある[Power Shooter.mp4]を参照ください。
+- movieファイル内にある[Power Shooter.mp4]を参照ください。
 
 # ゲーム概要
 - タイトル：PowerShooter
