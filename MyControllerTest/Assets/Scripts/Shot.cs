@@ -58,11 +58,11 @@ public class Shot : MonoBehaviour
     {
         if (UIScript.gameTime >= 0) // 制限時間外はシュートできない
         {
-            if (Input.GetKeyDown(KeyCode.W) || targetScript.y > 120)
+            if (Input.GetKeyDown(KeyCode.W) || targetScript.y > 40)
             {
                 // 3軸加速度センサーで取得したx,y,zの値をパワーに変換
-                float forwardPower = 4.5f * targetScript.y / 60;
-                float upPower = 4f * targetScript.y / 150;
+                float forwardPower = 5.5f * targetScript.y / 30;
+                float upPower = 4f * targetScript.y / 30;
                 float sidePower = 5f * targetScript.x / 70;
                 force = new Vector3(forwardPower, upPower, sidePower);
                 if (isFirst)
