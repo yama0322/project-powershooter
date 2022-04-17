@@ -4,9 +4,9 @@
 ![結果画像1](powershooter.png)
 
 ## コントローラー
-![結果画像1](Controller_1.png)
+![結果画像1](Controller_1.jpg)
 
-![結果画像1](Controller_2.png)
+![結果画像1](Controller_2.jpg)
 
 ## プレイ動画
 - タイトル：PowerShooter
