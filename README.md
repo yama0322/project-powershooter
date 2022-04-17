@@ -1,7 +1,7 @@
 # PowerShooter
 
 ## ゲーム画面
-![結果画像1](powershooter.png)
+![結果画像1](images/powershooter.png)
 
 ## コントローラー
 ![結果画像1](Controller_1.jpg)
