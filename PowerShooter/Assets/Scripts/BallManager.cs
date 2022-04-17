@@ -6,9 +6,6 @@ using UnityEngine.UI;
 /// </summary>
 public class BallManager : MonoBehaviour
 {
-    [Header("画面テキスト")]
-    public Text debugText;
-
     [Header("デバイスから取得した値")]
     public int sw1;
     public int sw2;

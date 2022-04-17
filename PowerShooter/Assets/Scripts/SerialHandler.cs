@@ -2,7 +2,6 @@
 
 // Unityでシリアル通信、Arduinoと連携する雛形
 // シリアル通信を制御するクラス
-// 例えば空のGameObjectでも作って、それに関連付けする
 
 using System.Collections;
 using System.Collections.Generic;
@@ -17,7 +16,7 @@ public class SerialHandler : MonoBehaviour
     public event SerialDataReceivedEventHandler OnDataReceived;
 
     // COM10以上は\\\\.\\を付加しないと開けない。
-    // portNameに直接代入するとなぜか失敗するので、ここでいったん別の変数に代入
+    // portNameに直接代入するとなぜか失敗するので、別の変数に代入
     string myPortName = "\\\\.\\COM10";
     public int baudRate = 57600;
 
