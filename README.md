@@ -9,7 +9,7 @@
 ![結果画像1](Controller_2.jpg)
 
 ## プレイ動画
-- タイトル：PowerShooter
+- ファイル内にある[Power Shooter.mp4]を参照ください。
 
 # ゲーム概要
 - タイトル：PowerShooter
