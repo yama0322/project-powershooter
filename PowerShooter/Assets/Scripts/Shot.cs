@@ -61,8 +61,8 @@ public class Shot : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) || targetScript.y > 40)
             {
                 // 3軸加速度センサーで取得したx,y,zの値をパワーに変換
-                float forwardPower = 5.5f * targetScript.y / 30;
-                float upPower = 4f * targetScript.y / 30;
+                float forwardPower = 3.5f * targetScript.y / 33;
+                float upPower = 3f * targetScript.y / 30;
                 float sidePower = 5f * targetScript.x / 70;
                 force = new Vector3(forwardPower, upPower, sidePower);
                 if (isFirst)

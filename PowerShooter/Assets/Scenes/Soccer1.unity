@@ -369,7 +369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ba8e9ff237e8241b39079ac77893df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugText: {fileID: 0}
   sw1: 0
   sw2: 0
   x: 0
@@ -402,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3f74464e8d70c4e99f6a945b1d5192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTime: 21
+  gameTime: 40
   scoreText: {fileID: 1068568546}
   timerText: {fileID: 1601261608}
   finishText: {fileID: 1825015405}

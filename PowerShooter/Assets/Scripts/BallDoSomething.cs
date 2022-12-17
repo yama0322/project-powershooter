@@ -5,7 +5,7 @@ public class BallDoSomething : MonoBehaviour
     GameObject targetObject;
     BallManager targetScript;
 
-    // シリアル通信のクラス、クラス名は正しく書く
+    // シリアル通信のクラス
     public SerialHandler serialHandler;
 
     void Start()
@@ -20,11 +20,10 @@ public class BallDoSomething : MonoBehaviour
     //arduinoからの値の読み取りを行う
     void OnDataReceived(string message)
     {
-        //targetScript.debugText.text = message;
-
         if (message == null)
             return;
 
+        // 取得した文字列の始めが'S'で終わりが'E'の場合読み取りを行う
         if (message[0] == 'S' && message[message.Length - 1] == 'E')
         {
             string receivedData;
